@@ -14,7 +14,8 @@ class Solution {
             g_n = temp;
         }
         answer[0] = g_n;
-        
+
+        //최소 공배수
         answer[1] = l_n*l_m/answer[0];
     
         
