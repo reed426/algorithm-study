@@ -29,7 +29,7 @@ class Main {
                     for(int r=0;r<8;r++){
                         int col = j+r;
 
-                        if(chess[row].charAt(col) != answer[row%2].charAt(r)){
+                        if(chess[row].charAt(col) != answer[k%2].charAt(r)){
                             cnt++;
                         }
                     }
